@@ -1,31 +1,38 @@
 <h1 align="center">Hi 👋, I'm Shivam Kumar Singh</h1>
 <h3 align="center">GenAI Engineer • AI Automation • Full Stack Developer</h3>
 
-🌟 I build intelligent systems using **LLMs, RAG & AI Automation**
+💡 Building AI-powered automation using LLMs, RAG & Agentic Workflows  
+📌 Aspiring Software Engineer focused on GenAI Apps & MLOps
 
 ---
 
 ### 🚀 About Me  
-- 🔭 Working on **AI Automation Projects**
-- 🤖 Passionate about **Agentic Workflows & LLM Apps**
-- 🌱 Currently learning **MLOps & Cloud**
-- 💬 Ask me about **Python, LangChain, FastAPI**
-- 📫 Reach me at: **shivamsinghrajput164@gmail.com**
+- 🌟 Passion for GenAI solutions & automation
+- 📚 Exploring MLOps + Cloud (AWS / GCP)
+- 🤖 LangChain + Vector Databases + FastAPI
+- 📬 Contact: **shivamsinghrajput164@gmail.com**
 
 ---
 
-### 🛠️ Tech Stack  
-
-| Domain | Skills |
-|--------|--------|
-| AI/ML | LLMs, RAG, LangChain |
-| Backend | Python, FastAPI, Flask |
-| Frontend | HTML, CSS, JavaScript |
-| Databases | MongoDB, ChromaDB, Pinecone |
-| DevOps | Git, Linux, Docker |
+### 🛠️ Languages & Tools  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,linux,docker,git,github,vscode" />
+</p>
 
 ---
 
 ### 📊 GitHub Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shivamsinghrajputtt&show_icons=true&theme=tokyonight)
+| Stats | Streak |
+|-------|--------|
+| ![Stats](https://github-readme-stats.vercel.app/api?username=shivamsinghrajputtt&show_icons=true&theme=tokyonight) | ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=shivamsinghrajputtt&theme=tokyonight) |
 
+---
+
+### 🔥 Featured Project (Next Upload)
+📎 **AI PDF Chat Assistant**  
+Interactive RAG app using LLMs + ChromaDB  
+⏳ In Development...
+
+---
+
+⭐ If you like my work, give a star & follow for updates!
