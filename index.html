@@ -3,11 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Shivam Kumar Singh — GenAI Engineer, AI Automation and Full-Stack Developer." />
+  <meta name="description" content="Shivam Kumar Singh — GenAI Engineer, AI Automation and Full-Stack Developer building practical AI-powered applications and reliable web software." />
   <meta name="theme-color" content="#0b1020" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://shivamsinghrajputtt.github.io/shivamsinghrajputtt/" />
   <meta property="og:title" content="Shivam Kumar Singh — GenAI Engineer" />
   <meta property="og:description" content="Practical AI-powered applications, automation tools and interactive web experiences." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shivamsinghrajputtt.github.io/shivamsinghrajputtt/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Shivam Kumar Singh — GenAI Engineer" />
+  <meta name="twitter:description" content="GenAI, automation and full-stack projects built with a product-focused engineering mindset." />
   <title>Shivam Kumar Singh — GenAI Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,34 +21,35 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="progress" id="progress" aria-hidden="true"></div>
   <div class="grid-bg" aria-hidden="true"></div>
 
   <header class="site-header" id="top">
     <nav class="nav container" aria-label="Primary navigation">
       <a class="brand" href="#top" aria-label="Shivam Kumar Singh home">
-        <span class="brand-mark">S</span><span>Shivam<span class="accent">.</span></span>
+        <span class="brand-mark" aria-hidden="true">S</span><span>Shivam<span class="accent">.</span></span>
       </a>
-      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation">☰</button>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation" type="button">☰</button>
       <div class="nav-links" id="navLinks">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#focus">Focus</a>
-        <a class="nav-cta" href="https://github.com/shivamsinghrajputtt" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="nav-cta" href="https://github.com/shivamsinghrajputtt" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section class="hero container">
+  <main id="main-content">
+    <section class="hero container" aria-labelledby="hero-title">
       <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="status-dot"></span> Building practical AI systems</p>
-        <h1>GenAI Engineer<br /><span class="gradient-text">with a builder's mindset.</span></h1>
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Building practical AI systems</p>
+        <h1 id="hero-title">GenAI Engineer<br /><span class="gradient-text">with a builder's mindset.</span></h1>
         <p class="hero-text">I build practical AI-powered applications, automation tools, and interactive web experiences — turning real-world problems into usable software.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">Explore my work <span>↓</span></a>
-          <a class="btn btn-secondary" href="https://www.linkedin.com/in/shivamkumarsingh-ai/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a>
+          <a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/shivamkumarsingh-ai/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
         </div>
         <div class="quick-stats" aria-label="Key focus areas">
           <div><strong>AI</strong><span>LLMs · RAG · Agents</span></div>
@@ -51,92 +58,54 @@
         </div>
       </div>
       <div class="hero-visual reveal" aria-hidden="true">
-        <div class="orb orb-one"></div>
-        <div class="orb orb-two"></div>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
         <div class="terminal-card">
           <div class="terminal-top"><span></span><span></span><span></span><b>shivam.dev</b></div>
           <div class="terminal-body">
-            <p><span class="muted">$</span> whoami</p>
-            <p class="cyan">GenAI Engineer</p>
-            <p><span class="muted">$</span> build --with</p>
-            <p><span class="purple">→</span> LLMs + RAG + Agents</p>
-            <p><span class="purple">→</span> FastAPI + React</p>
-            <p><span class="purple">→</span> Testing + CI/CD</p>
+            <p><span class="muted">$</span> whoami</p><p class="cyan">GenAI Engineer</p>
+            <p><span class="muted">$</span> build --with</p><p><span class="purple">→</span> LLMs + RAG + Agents</p>
+            <p><span class="purple">→</span> FastAPI + React</p><p><span class="purple">→</span> Testing + CI/CD</p>
             <p><span class="muted">$</span> <span class="cursor">▌</span></p>
           </div>
         </div>
-        <div class="floating-badge badge-ai">✦ GenAI</div>
-        <div class="floating-badge badge-code">&lt;/&gt; Build</div>
+        <div class="floating-badge badge-ai">✦ GenAI</div><div class="floating-badge badge-code">&lt;/&gt; Build</div>
       </div>
     </section>
 
-    <section class="section container" id="about">
-      <div class="section-heading reveal"><span>01</span><h2>About me</h2></div>
+    <section class="section container" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal"><span>01</span><h2 id="about-title">About me</h2></div>
       <div class="about-grid">
-        <div class="about-lead reveal">
-          <p class="big-copy">I like building software that <span class="accent">solves a real problem</span>, not just demonstrating a technology.</p>
-        </div>
-        <div class="about-body reveal">
-          <p>I'm a Computer Science & Engineering student focused on GenAI, automation, and modern web development. My work sits at the intersection of AI application architecture and product-focused engineering.</p>
-          <p>I'm especially interested in LLM applications, RAG pipelines, AI agents, APIs, vector databases, testing, and reliable deployment workflows.</p>
-        </div>
+        <div class="about-lead reveal"><p class="big-copy">I like building software that <span class="accent">solves a real problem</span>, not just demonstrating a technology.</p></div>
+        <div class="about-body reveal"><p>I'm a Computer Science & Engineering student focused on GenAI, automation, and modern web development. My work sits at the intersection of AI application architecture and product-focused engineering.</p><p>I'm especially interested in LLM applications, RAG pipelines, AI agents, APIs, vector databases, testing, and reliable deployment workflows.</p></div>
       </div>
     </section>
 
-    <section class="section section-soft" id="skills">
-      <div class="container">
-        <div class="section-heading reveal"><span>02</span><h2>Technical toolkit</h2></div>
+    <section class="section section-soft" id="skills" aria-labelledby="skills-title">
+      <div class="container"><div class="section-heading reveal"><span>02</span><h2 id="skills-title">Technical toolkit</h2></div>
         <div class="skills-grid">
-          <article class="skill-card reveal"><div class="skill-icon">AI</div><h3>GenAI</h3><p>LLMs, RAG, AI Agents, prompt engineering, embeddings and vector databases.</p><div class="chips"><span>LLMs</span><span>RAG</span><span>Agents</span><span>Embeddings</span></div></article>
-          <article class="skill-card reveal"><div class="skill-icon">PY</div><h3>Backend</h3><p>Python-first API development with an interest in scalable AI service architecture.</p><div class="chips"><span>Python</span><span>FastAPI</span><span>REST APIs</span></div></article>
-          <article class="skill-card reveal"><div class="skill-icon">JS</div><h3>Frontend</h3><p>Responsive, interactive interfaces built with modern JavaScript ecosystems.</p><div class="chips"><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind</span></div></article>
-          <article class="skill-card reveal"><div class="skill-icon">CI</div><h3>Engineering</h3><p>Clean development workflows with version control, testing, containers and CI/CD.</p><div class="chips"><span>Git</span><span>GitHub</span><span>Docker</span><span>Linux</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon" aria-hidden="true">AI</div><h3>GenAI</h3><p>LLMs, RAG, AI Agents, prompt engineering, embeddings and vector databases.</p><div class="chips"><span>LLMs</span><span>RAG</span><span>Agents</span><span>Embeddings</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon" aria-hidden="true">PY</div><h3>Backend</h3><p>Python-first API development with an interest in scalable AI service architecture.</p><div class="chips"><span>Python</span><span>FastAPI</span><span>REST APIs</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon" aria-hidden="true">JS</div><h3>Frontend</h3><p>Responsive, interactive interfaces built with modern JavaScript ecosystems.</p><div class="chips"><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon" aria-hidden="true">CI</div><h3>Engineering</h3><p>Clean development workflows with version control, testing, containers and CI/CD.</p><div class="chips"><span>Git</span><span>GitHub</span><span>Docker</span><span>Linux</span></div></article>
         </div>
       </div>
     </section>
 
-    <section class="section container" id="projects">
-      <div class="section-heading reveal"><span>03</span><h2>Selected projects</h2></div>
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading reveal"><span>03</span><h2 id="projects-title">Selected projects</h2></div>
       <div class="projects-grid">
-        <article class="project-card project-featured reveal">
-          <div class="project-top"><span class="project-number">01</span><span class="project-type">GenAI · RAG</span></div>
-          <div class="project-content"><h3>AI PDF Chat Assistant</h3><p>A Python AI application for interacting with PDF documents through retrieval-augmented generation, semantic search, vector embeddings and LLM-powered question answering.</p><div class="project-tags"><span>Python</span><span>RAG</span><span>Embeddings</span><span>LLM</span></div><a href="https://github.com/shivamsinghrajputtt/AI-PDF-Chat-Assistant" target="_blank" rel="noreferrer" class="project-link">View repository <span>↗</span></a></div>
-        </article>
-        <article class="project-card reveal">
-          <div class="project-top"><span class="project-number">02</span><span class="project-type">Systems · Web</span></div>
-          <div class="project-content"><h3>CPU Scheduling Visualizer</h3><p>Interactive simulator for FCFS, SJF, SRTF, Priority and Round Robin scheduling with Gantt charts, metrics, tests and CI.</p><div class="project-tags"><span>JavaScript</span><span>Algorithms</span><span>Testing</span><span>CI</span></div><a href="https://github.com/shivamsinghrajputtt/CPU-Scheduling-Visualizer" target="_blank" rel="noreferrer" class="project-link">View repository <span>↗</span></a></div>
-        </article>
-        <article class="project-card reveal">
-          <div class="project-top"><span class="project-number">03</span><span class="project-type">Frontend · Browser</span></div>
-          <div class="project-content"><h3>Animated Keycode Detector</h3><p>Real-time browser keyboard event inspector showing event.code, keyCode, key location, modifiers and interactive visual feedback.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span></div><div class="project-actions"><a href="https://shivamsinghrajputtt.github.io/Animated-Keycode-Detector/" target="_blank" rel="noreferrer" class="project-link">Live demo <span>↗</span></a><a href="https://github.com/shivamsinghrajputtt/Animated-Keycode-Detector" target="_blank" rel="noreferrer" class="project-link muted-link">Code <span>↗</span></a></div></div>
-        </article>
+        <article class="project-card project-featured reveal"><div class="project-top"><span class="project-number">01</span><span class="project-type">GenAI · RAG</span></div><div class="project-content"><h3>AI PDF Chat Assistant</h3><p>A Python AI application for interacting with PDF documents through retrieval-augmented generation, semantic search, vector embeddings and LLM-powered question answering.</p><div class="project-tags"><span>Python</span><span>RAG</span><span>Embeddings</span><span>LLM</span></div><a href="https://github.com/shivamsinghrajputtt/AI-PDF-Chat-Assistant" target="_blank" rel="noopener noreferrer" class="project-link">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-top"><span class="project-number">02</span><span class="project-type">Systems · Web</span></div><div class="project-content"><h3>CPU Scheduling Visualizer</h3><p>Interactive simulator for FCFS, SJF, SRTF, Priority and Round Robin scheduling with Gantt charts, metrics, tests and CI.</p><div class="project-tags"><span>JavaScript</span><span>Algorithms</span><span>Testing</span><span>CI</span></div><a href="https://github.com/shivamsinghrajputtt/CPU-Scheduling-Visualizer" target="_blank" rel="noopener noreferrer" class="project-link">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-top"><span class="project-number">03</span><span class="project-type">Frontend · Browser</span></div><div class="project-content"><h3>Animated Keycode Detector</h3><p>Real-time browser keyboard event inspector showing event.code, keyCode, key location, modifiers and interactive visual feedback.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span></div><div class="project-actions"><a href="https://shivamsinghrajputtt.github.io/Animated-Keycode-Detector/" target="_blank" rel="noopener noreferrer" class="project-link">Live demo <span aria-hidden="true">↗</span></a><a href="https://github.com/shivamsinghrajputtt/Animated-Keycode-Detector" target="_blank" rel="noopener noreferrer" class="project-link muted-link">Code <span aria-hidden="true">↗</span></a></div></div></article>
       </div>
     </section>
 
-    <section class="section section-soft" id="focus">
-      <div class="container focus-grid">
-        <div class="section-heading reveal"><span>04</span><h2>Engineering focus</h2></div>
-        <div class="focus-flow reveal">
-          <div class="flow-item"><strong>01</strong><span>Problem</span><p>Start with a real user or business problem.</p></div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-item"><strong>02</strong><span>AI / Software</span><p>Choose the simplest architecture that solves it.</p></div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-item"><strong>03</strong><span>Production</span><p>Test, automate and ship something reliable.</p></div>
-        </div>
-      </div>
-    </section>
+    <section class="section section-soft" id="focus" aria-labelledby="focus-title"><div class="container focus-grid"><div class="section-heading reveal"><span>04</span><h2 id="focus-title">Engineering focus</h2></div><div class="focus-flow reveal"><div class="flow-item"><strong>01</strong><span>Problem</span><p>Start with a real user or business problem.</p></div><div class="flow-arrow" aria-hidden="true">→</div><div class="flow-item"><strong>02</strong><span>AI / Software</span><p>Choose the simplest architecture that solves it.</p></div><div class="flow-arrow" aria-hidden="true">→</div><div class="flow-item"><strong>03</strong><span>Production</span><p>Test, automate and ship something reliable.</p></div></div></div></section>
 
-    <section class="contact container reveal" id="contact">
-      <div class="contact-card">
-        <p class="eyebrow">Let's build something useful</p>
-        <h2>Have a problem worth solving?</h2>
-        <p>Explore my work, connect with me, or follow the projects I'm building in public.</p>
-        <div class="hero-actions"><a class="btn btn-primary" href="https://github.com/shivamsinghrajputtt" target="_blank" rel="noreferrer">GitHub ↗</a><a class="btn btn-secondary" href="https://www.linkedin.com/in/shivamkumarsingh-ai/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
-      </div>
-    </section>
+    <section class="contact container reveal" id="contact" aria-labelledby="contact-title"><div class="contact-card"><p class="eyebrow">Let's build something useful</p><h2 id="contact-title">Have a problem worth solving?</h2><p>Explore my work, connect with me, or follow the projects I'm building in public.</p><div class="hero-actions"><a class="btn btn-primary" href="https://github.com/shivamsinghrajputtt" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a class="btn btn-secondary" href="https://www.linkedin.com/in/shivamkumarsingh-ai/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div></section>
   </main>
 
   <footer class="footer container"><p>© <span id="year"></span> Shivam Kumar Singh</p><a href="#top">Back to top ↑</a></footer>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
