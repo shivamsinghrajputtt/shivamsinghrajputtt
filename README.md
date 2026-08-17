@@ -1,142 +1,154 @@
 <h1 align="center">Hi 👋, I'm Shivam Kumar Singh</h1>
 
-<h3 align="center">
-GenAI Engineer • AI Automation • Full-Stack Development
-</h3>
-
 <p align="center">
-  I build practical AI-powered applications, automation tools, and interactive web experiences.
+  <strong>GenAI & Full-Stack Developer</strong> · Python · JavaScript · RAG · AI Applications
 </p>
 
 <p align="center">
-  <a href="https://shivamsinghrajputtt.github.io/Animated-Keycode-Detector/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Animated%20Keycode%20Detector-2ea44f?style=for-the-badge" />
-  </a>
-  <a href="https://www.linkedin.com/in/shivamkumarsingh-ai/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  I build practical software products that combine AI, automation, backend APIs, and modern web interfaces.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/shivamkumarsingh-ai/">LinkedIn</a> ·
+  <a href="https://github.com/shivamsinghrajputtt">GitHub</a>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## 👨‍💻 About
 
-I'm a Computer Science & Engineering student focused on building practical software with **GenAI, automation, and modern web technologies**.
+I'm a Computer Science & Engineering student focused on building reliable, portfolio-ready software with **GenAI, full-stack development, and automation**.
 
-- 🤖 Building applications around **LLMs, RAG, AI agents, and automation workflows**
-- 🧩 Interested in turning real-world problems into practical software solutions
-- 🌐 Building interactive **full-stack web applications**
-- 🐍 Working primarily with **Python and JavaScript**
-- ⚡ Exploring **FastAPI, vector databases, AI application architecture, and cloud deployment**
-- 🧪 I care about **testing, reliability, clean code, and production-ready workflows**
-- 🚀 Continuously improving through hands-on projects and open-source development
+- 🤖 Building with **LLMs, RAG, retrieval pipelines, and AI application patterns**
+- 🐍 Working primarily with **Python and JavaScript/TypeScript**
+- 🌐 Building full-stack applications with **Next.js, React, FastAPI, and REST APIs**
+- 🗄️ Working with **Supabase, SQL, and vector databases**
+- 🧪 Practicing **automated testing, CI, security basics, and production-oriented workflows**
+- 🚀 Learning by shipping projects, improving architecture, and documenting engineering decisions
 
 ---
 
-## 🛠️ Tech Stack
+## 🧰 Technical Skills
 
-### Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,js,html,css" />
-</p>
-
-### AI & Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python" />
-</p>
-
-**GenAI:** LLMs • RAG • AI Agents • Prompt Engineering • Vector Databases  
-**Backend:** FastAPI • REST APIs
-
-### Frontend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" />
-</p>
-
-### Tools & Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode" />
-</p>
+| Area | Technologies |
+|---|---|
+| **Languages** | Python, JavaScript, TypeScript, HTML, CSS |
+| **GenAI** | LLMs, RAG, embeddings, semantic retrieval, prompt engineering, AI agents |
+| **Frontend** | React, Next.js, Tailwind CSS |
+| **Backend** | FastAPI, Node.js, REST APIs |
+| **Data** | Supabase, SQL, ChromaDB, vector search |
+| **Testing & CI** | Pytest, Node.js test runner, GitHub Actions |
+| **Tools** | Git, GitHub, Docker, Linux, VS Code |
+| **Deployment** | GitHub Pages, Vercel, cloud-ready application workflows |
 
 ---
 
 ## 🚀 Featured Projects
 
+### 🤖 AI PDF Chat Assistant
+
+**Python · Streamlit · ChromaDB · RAG · Pytest · GitHub Actions**
+
+A multi-document PDF RAG assistant that extracts page-aware content, performs semantic retrieval, maintains bounded conversation context, and returns answers with document/page evidence.
+
+**Engineering highlights:**
+- Multi-document retrieval with relevance filtering
+- Grounded answering with source attribution
+- Retrieval evaluation using **Hit Rate and MRR**
+- Deterministic fallback when an LLM is unavailable
+- Automated regression testing in CI
+
+🔗 [Repository](https://github.com/shivamsinghrajputtt/AI-PDF-Chat-Assistant)
+
+---
+
 ### 🖥️ CPU Scheduling Visualizer
 
-An interactive web-based CPU scheduling simulator implementing algorithms such as:
+**HTML · CSS · JavaScript · Node.js Tests · GitHub Actions · GitHub Pages**
 
-**FCFS • SJF • SRTF • Priority • Round Robin**
+An interactive Operating Systems simulator that visualizes CPU scheduling algorithms through Gantt charts, step-by-step execution, and scheduling metrics.
 
-Features include:
+**Algorithms:** FCFS · SJF · SRTF · Priority · Round Robin
 
-- Interactive scheduling visualization
-- Gantt chart generation
-- Scheduling metrics
-- Automated tests
-- GitHub Actions CI
-- Production GitHub workflow and branch protection
+**Engineering highlights:**
+- Pure scheduling engine separated from DOM rendering
+- Automated algorithm correctness tests
+- CI validation with GitHub Actions
+- Accessible, keyboard-friendly interface
+- Live GitHub Pages deployment
 
-🔗 **Repository:**  
-https://github.com/shivamsinghrajputtt/CPU-Scheduling-Visualizer
+🔗 [Live Demo](https://shivamsinghrajputtt.github.io/CPU-Scheduling-Visualizer/) · [Repository](https://github.com/shivamsinghrajputtt/CPU-Scheduling-Visualizer)
+
+---
+
+### 🏠 MagicKey CRM
+
+**Next.js · TypeScript · Tailwind CSS · Supabase · PWA**
+
+A mobile-first real estate broker CRM designed around clients, properties, requirements, follow-ups, and requirement-to-property matching.
+
+**Engineering highlights:**
+- Supabase authentication and data model
+- Dashboard analytics and matching scores
+- Image upload flow with Supabase Storage
+- WhatsApp sharing workflows
+- PWA-ready mobile experience
+- Vercel-ready deployment configuration
+
+🔗 [Repository](https://github.com/shivamsinghrajputtt/MagicKey-CRM)
 
 ---
 
 ### ⌨️ Animated Keycode Detector
 
-A browser-based keyboard event inspector that visualizes detailed keyboard events in real time.
+**HTML · CSS · JavaScript · Node.js Tests · GitHub Actions · GitHub Pages**
 
-**Features:**
+A browser-based keyboard event inspector that exposes `event.key`, `event.code`, `event.location`, modifier flags, repeat state, and legacy `keyCode` behavior through an interactive UI.
 
-- Keyboard event detection
-- `event.code`
-- Legacy `keyCode`
-- Key location
-- Modifier detection
-- Interactive visual feedback
-- Responsive UI
-- Automated testing
-- GitHub Actions CI
-- GitHub Pages deployment
+**Engineering highlights:**
+- Core event-normalization logic separated from the UI
+- Automated tests with GitHub Actions
+- Responsive and accessibility-focused interface
+- Reduced-motion support
+- Clipboard interaction for event details
 
-🔗 **Live Demo:**  
-https://shivamsinghrajputtt.github.io/Animated-Keycode-Detector/
-
-🔗 **Repository:**  
-https://github.com/shivamsinghrajputtt/Animated-Keycode-Detector
-
----
-
-### 📄 AI PDF Chat Assistant
-
-A Python-based AI application designed to interact with PDF documents using retrieval-augmented generation.
-
-**Focus:**
-
-- PDF document processing
-- Semantic search
-- Vector embeddings
-- Retrieval-Augmented Generation
-- LLM-powered question answering
-
-🔗 Repository:
-https://github.com/shivamsinghrajputtt
+🔗 [Live Demo](https://shivamsinghrajputtt.github.io/Animated-Keycode-Detector/) · [Repository](https://github.com/shivamsinghrajputtt/Animated-Keycode-Detector)
 
 ---
 
 ## 🧠 Engineering Focus
 
-I'm particularly interested in:
-
 ```text
-GenAI Applications
+AI Applications
       ↓
-LLMs → RAG → Agents → Automation
+LLMs → RAG → Retrieval → Agents → Automation
       ↓
-FastAPI → APIs → Databases → Deployment
+APIs → Databases → Web Applications → Deployment
       ↓
-Testing → CI/CD → Reliability → Production
+Testing → CI → Security → Reliability
+```
+
+I care about more than making a demo work: **clear architecture, testable components, useful documentation, safe defaults, and reproducible development workflows**.
+
+---
+
+## 📌 What I'm Building Toward
+
+- Production-oriented GenAI applications
+- RAG systems with measurable retrieval quality
+- AI-powered automation workflows
+- Full-stack products with clean backend/API boundaries
+- Better testing, observability, security, and deployment practices
+
+---
+
+## 📫 Connect
+
+- **LinkedIn:** https://www.linkedin.com/in/shivamkumarsingh-ai/
+- **GitHub:** https://github.com/shivamsinghrajputtt
+
+---
+
+<p align="center">
+  <i>Build → Test → Document → Improve</i>
+</p>
