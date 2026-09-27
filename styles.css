@@ -23,3 +23,29 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-3;bac
 .rag-card{background:radial-gradient(circle,rgba(119,89,255,.13),transparent 42%),#08080b}.rag-orbit{box-shadow:0 0 50px rgba(103,82,255,.07)}.rag-orbit:before{content:"";position:absolute;inset:-23px;border:1px dotted rgba(199,255,61,.12);border-radius:50%;animation:orbit 18s linear infinite}@keyframes orbit{to{transform:rotate(360deg)}}
 .lab-card{background:radial-gradient(circle at 75% 40%,rgba(104,76,255,.13),transparent 30%),#08080b}
 @media(max-width:680px){.constellation{right:-100px;top:22%;width:230px;height:230px;opacity:.1}.aurora{opacity:.25}.statement-inner{min-height:330px}}@media(prefers-reduced-motion:reduce){.aurora,.rag-orbit:before{animation:none}}
+
+/* MOBILE COMPOSITION FIX — study machine */
+@media(max-width:680px){
+  .feature-project{width:100%;overflow:hidden}
+  .feature-visual{min-height:0;padding:62px 16px 38px;display:block}
+  .project-index{top:18px;left:18px;z-index:2;font-size:8px}
+  .study-machine{width:100%;padding:22px 18px 20px;margin:0;transform:none}
+  .study-machine:before{margin-bottom:14px;font-size:7px;letter-spacing:5px}
+  .machine-label{font-size:8px;letter-spacing:.08em}
+  .machine-title{font-size:25px;line-height:1.05;margin:22px 0 24px}
+  .machine-flow{display:flex;flex-direction:column;align-items:stretch;gap:0}
+  .machine-flow div{width:100%;min-height:68px;padding:13px 10px;display:flex;flex-direction:column;justify-content:center;align-items:center;font-size:10px}
+  .machine-flow small{font-size:7px;margin-top:4px}
+  .machine-flow b{height:28px;display:grid;place-items:center;transform:none;font-size:13px;color:#60605a}
+  .machine-progress{margin:22px 0 11px}
+  .machine-foot{font-size:6.5px;line-height:1.5}
+  .feature-copy{padding:30px 21px 34px}
+  .feature-copy h3{font-size:28px}
+  .feature-copy p{font-size:13px}
+}
+@media(max-width:390px){
+  .feature-visual{padding-left:11px;padding-right:11px}
+  .study-machine{padding:19px 14px 17px}
+  .machine-title{font-size:22px}
+  .machine-flow div{min-height:62px}
+}
